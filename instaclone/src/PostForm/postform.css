@@ -1,0 +1,27 @@
+.formContainer{
+  padding:0;
+  font-family: Verdana, sans-serif;
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  width: 800px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  border: solid rgb(10, 11, 10);
+}
+.formContainer input:not(#submitbtn) {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: rgb(8, 8, 8);
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid rgb(61, 61, 61);
+    outline: none;
+    background: transparent;
+}
+#submitbtn{
+    width: -webkit-fill-available;
+}
